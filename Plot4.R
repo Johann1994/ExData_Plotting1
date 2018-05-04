@@ -6,7 +6,7 @@ GeneratePlot4 <- function(){
         DateVec <- strptime(paste(EnergyConsumption$Date, 
                                   EnergyConsumption$Time), "%d/%m/%Y %H:%M:%S")
         
-        png("Plot4.png")
+        png("Plot4.png", , width = 480, height = 480)
         par(mar = c(5.1,4.1, 2,2), mfrow = c(2,2))
         
         #plot1

@@ -7,7 +7,7 @@ GeneratePlot3 <- function() {
                                   EnergyConsumption$Time), "%d/%m/%Y %H:%M:%S")
         
 
-        png("Plot3.png")
+        png("Plot3.png", , width = 480, height = 480)
         par(mar = c(3,4.1, 2,2))
         
         with(EnergyConsumption, plot(DateVec, Sub_metering_1, type = "n",
