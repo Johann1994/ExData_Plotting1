@@ -1,4 +1,5 @@
 GeneratePlot1 <- function(){
+        # ReadData.R is also copied to github
         source("ReadData.R")
         EnergyConsumption <- ReadInData()
         

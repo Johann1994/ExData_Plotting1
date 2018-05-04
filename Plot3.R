@@ -1,5 +1,6 @@
 GeneratePlot3 <- function() {
         Sys.setlocale("LC_TIME","English")
+        # ReadData.R is also copied to github
         source("ReadData.R")
         EnergyConsumption <- ReadInData()
         
